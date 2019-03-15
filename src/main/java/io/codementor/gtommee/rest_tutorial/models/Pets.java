@@ -20,7 +20,7 @@ public class Pets {
         this.breed = breed;
     }
 
-    public ObjectId get_id() {
+    public String get_id() {
         return _id.toHexString();
     }
 
